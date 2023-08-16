@@ -1,0 +1,9 @@
+.hcards__item_paragraph {
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 300;
+}
+.hcards__item_paragraph:nth-child(2n) {
+    margin: 0;
+}

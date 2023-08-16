@@ -1,0 +1,9 @@
+.info {
+    margin-bottom: 160px;
+}
+
+@media (max-width: 767px) {
+    .info {
+        margin-bottom: 80px;
+    }
+  }

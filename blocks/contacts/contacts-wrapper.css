@@ -1,0 +1,20 @@
+.contacts-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+}
+
+@media (max-width: 992px) {
+    .contacts-wrapper {
+        justify-content: space-evenly;
+    }
+  }
+
+@media (max-width: 767px) {
+    .contacts-wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+  }

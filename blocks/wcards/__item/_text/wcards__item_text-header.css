@@ -1,0 +1,17 @@
+.wcards__item_text-header {
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 500;
+}
+
+@media (max-width: 1279px) {
+    .wcards__item_text-header {
+        font-size: 32px;
+    }
+  }
+
+@media (max-width: 480px) {
+    .wcards__item_text-header {
+        font-size: 25px;
+    }
+  }

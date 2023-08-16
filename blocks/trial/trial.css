@@ -1,0 +1,25 @@
+.trial {
+    background-color: rgb(244, 247, 249);
+    display: flex;
+    flex-direction: row;
+    min-height: 640px;
+    margin-bottom: 150px;
+    align-items: center;
+}
+
+.trial::before {
+    display: block;
+    content: '';
+    position: absolute;
+    right: 0px;
+    background-color: rgb(244, 247, 249);
+    z-index: -1;
+    width: 100%;
+    height: 640px;
+}
+
+@media (max-width: 1279px) {
+    .trial {
+        justify-content: space-between;
+    }
+  }

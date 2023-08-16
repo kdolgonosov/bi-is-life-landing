@@ -1,0 +1,18 @@
+.trial__form {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 550px;
+}
+
+@media (max-width: 1279px) {
+    .trial__form {
+        width: 450px;
+    }
+  }
+
+@media (max-width: 480px) {
+    .trial__form {
+        width: calc(100vw - 30px);
+    }
+  }

@@ -1,0 +1,19 @@
+.clients__item {
+    object-fit:contain;
+    justify-self: center;
+    align-self: center;
+    max-width: 150px;
+    max-height: 85px;
+    opacity: 0.5;
+    transition: opacity 0.2s ease 0.1s;
+}
+
+@media (max-width: 1069px) {
+    .clients__item {
+        justify-self: center;
+    }
+}
+
+.clients__item:hover {
+    opacity: 1;
+}

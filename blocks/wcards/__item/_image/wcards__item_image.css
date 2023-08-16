@@ -1,0 +1,26 @@
+.wcards__item_image {
+    width: 550px;
+    height: 400px;
+}
+
+@media (max-width: 992px) {
+    .wcards__item_image {
+        order: 2;
+        width: 600px;
+        height: 436px;
+    }
+  }
+
+@media (max-width: 767px) {
+    .wcards__item_image {
+        width: 480px;
+        height: 348.8px;
+    }
+  }
+  
+@media (max-width: 480px) {
+    .wcards__item_image {
+        width: 100vw;
+        height: fit-content;
+    }
+  }

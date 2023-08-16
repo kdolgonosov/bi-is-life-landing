@@ -1,0 +1,34 @@
+.info__metrics_number {
+    text-align: center;
+    font-size: 52px;
+    line-height: 62px;
+    font-weight: 700;
+    margin-bottom: 38px;
+}
+.info__metrics_number::after {
+    display: block;
+    content: '';
+    position: relative;
+    width: 360px;
+    top: 22px;
+    border: 1px solid #000;
+    opacity: 0.2;
+}
+
+@media (max-width: 1279px) {
+    .info__metrics_number {
+        font-size: 45px;
+    }
+    .info__metrics_number::after {
+        width: 220px;
+    }
+  }
+
+@media (max-width: 767px) {
+    .info__metrics_number {
+        margin-bottom: 25px;
+    }
+    .info__metrics_number::after {
+        top: 12px;
+    }
+  }

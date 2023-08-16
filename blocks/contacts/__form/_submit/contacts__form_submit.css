@@ -1,0 +1,11 @@
+.contacts__form_submit {
+    width: 157px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+@media (max-width: 767px) {
+    .contacts__form_submit {
+        align-self: center;
+    }
+  }

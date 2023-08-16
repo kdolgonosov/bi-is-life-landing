@@ -1,0 +1,4 @@
+.greetings__form {
+    display: flex;
+    flex-direction: row;
+}

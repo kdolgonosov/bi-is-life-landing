@@ -1,0 +1,9 @@
+.wcards {
+    margin-bottom: 282px;
+}
+
+@media (max-width: 1279px) {
+    .wcards {
+        margin: 0 20px 282px;
+    }
+  }

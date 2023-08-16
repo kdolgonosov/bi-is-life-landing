@@ -1,0 +1,14 @@
+.contacts__text_email {
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 300;
+    margin-bottom: 45px;
+}
+
+@media (max-width: 992px) {
+    .contacts__text_email {
+        font-size: 26px;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+  }

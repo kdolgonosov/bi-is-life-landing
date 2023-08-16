@@ -1,0 +1,21 @@
+.contacts__subtitle {
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    max-width: 560px;
+    margin: 0 auto 89px auto;
+}
+
+@media (max-width: 992px) {
+    .contacts__subtitle {
+        font-size: 20px;
+        line-height: 32px;
+    }
+  }
+@media (max-width: 480px) {
+    .contacts__subtitle {
+        font-size: 18px;
+        line-height: 30px;
+    }
+  }

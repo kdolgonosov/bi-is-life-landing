@@ -1,0 +1,19 @@
+.trial__subtitle {
+    font-size: 18px;
+    font-weight:300;
+    text-align: center;
+    background-color: rgb(244, 247, 249);
+    margin-bottom: 60px;
+}
+
+@media (max-width: 1279px) {
+    .trial__subtitle {
+        font-size: 16px;
+    }
+  }
+
+@media (max-width: 480px) {
+    .trial__subtitle {
+        font-size: 16px;
+    }
+  }

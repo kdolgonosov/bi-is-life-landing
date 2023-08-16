@@ -1,0 +1,22 @@
+.hcards__subtitle {
+    text-align: center;
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 300;
+    margin: 0 auto 88px auto;
+    max-width: 600px
+}
+
+@media (max-width: 1279px) {
+    .hcards__subtitle {
+        font-size: 20px;
+        max-width: 480px
+    }
+  }
+
+@media (max-width: 480px) {
+    .hcards__subtitle {
+        font-size: 18px;
+        max-width: 480px
+    }
+  }

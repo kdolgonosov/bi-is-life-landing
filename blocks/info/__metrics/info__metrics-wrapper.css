@@ -1,0 +1,17 @@
+.info__metrics-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+}
+
+@media (max-width: 1279px) {
+    .info__metrics-wrapper {
+        max-width: 360px;
+    }
+  }
+
+@media (max-width: 767px) {
+    .info__metrics-wrapper {
+        margin-bottom: 40px;
+    }
+  }
